@@ -1,0 +1,28 @@
+@url = ""
+
+GET {{url}}/prod/spaces
+###
+
+POST {{url}}/prod/spaces
+Content-Type: application/json
+
+{
+    "location": "Pari2s",
+    "name": "par2is"
+}
+###
+
+GET {{url}}/prod/spaces?id=a940e662-6924-4a64-8823-be971df58a93
+###
+
+PUT {{url}}/prod/spaces?id=a940e662-6924-4a64-8823-be971df58a93
+Content-Type: application/json
+
+{
+    "location": "Italy"
+}
+###
+
+DELETE {{url}}/prod/spaces?id=a940e662-6924-4a64-8823-be971df58a93
+Content-Type: application/json
+###

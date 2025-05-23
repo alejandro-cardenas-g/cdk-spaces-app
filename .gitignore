@@ -1,3 +1,6 @@
 node_modules
 cdk.out
 launch.json
+
+**/*.http
+!**/*.example.http
