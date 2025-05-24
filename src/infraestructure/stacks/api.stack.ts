@@ -20,7 +20,7 @@ export class ApiStack extends Stack {
   constructor(scope: Construct, id: string, props: IApiStackProps) {
     super(scope, id, props);
 
-    const api = new RestApi(this, "spaces-api");
+    const api = new RestApi(this, "SpacesApi");
 
     const authorizer = new CognitoUserPoolsAuthorizer(
       this,
