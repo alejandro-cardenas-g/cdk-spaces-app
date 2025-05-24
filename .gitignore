@@ -4,3 +4,5 @@ launch.json
 
 **/*.http
 !**/*.example.http
+
+outputs.json
